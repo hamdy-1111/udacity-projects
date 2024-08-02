@@ -1,0 +1,9 @@
+Rogue Username: darklord
+Malicious Process: /tmp/remotesec
+Listening Port: 56565
+
+Justification:
+- The username `darklord` was found in the /etc/passwd file.
+- The process `/tmp/remotesec` was found running as root, and it is not part of the normal system processes.
+- The process is listening on a non-standard port (56565), indicating it might be a backdoor.
+

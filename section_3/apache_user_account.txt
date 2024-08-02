@@ -1,0 +1,21 @@
+Steps to De-Privilege Apache Account:
+
+1. Create a new user group:
+   sudo groupadd apache-group
+
+2. Create a new user account:
+   sudo useradd -r -s /sbin/nologin -g apache-group apache-user
+
+3. Modify Apache configuration:
+   - Open the Apache configuration file:
+     sudo nano /etc/apache2/apache2.conf
+   - Change the following directives:
+     User apache-user
+     Group apache-group
+
+4. Adjust file permissions:
+   sudo chown -R apache-user:apache-group /var/www/html
+   sudo chown -R apache-user:apache-group /var/log/apache2
+
+5. Restart Apache to apply changes:
+   sudo service apache2 restart

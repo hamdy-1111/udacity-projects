@@ -1,0 +1,10 @@
+Apache HTTP Server Version: 2.4.7
+
+Configuration Change to Hide Version Banner:
+1. Edit the Apache configuration file (`/etc/apache2/apache2.conf` or `/etc/apache2/conf-available/security.conf`).
+2. Add or modify the following directives:
+   ServerTokens Prod
+   ServerSignature Off
+3. Restart Apache server to apply changes:
+   sudo service apache2 restart
+

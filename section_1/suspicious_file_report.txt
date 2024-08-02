@@ -1,0 +1,4 @@
+Suspicious file: wipefs
+Embedded callout URLs:
+Binary file /home/ubuntu/Downloads/wipefs matches
+Binary file /home/ubuntu/Downloads/wipefs matches

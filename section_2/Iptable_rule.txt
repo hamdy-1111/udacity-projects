@@ -1,0 +1,19 @@
+block all traffic comming from the attacker 
+
+
+sudo iptables -A INPUT -s 192.168.99.1 -j DROP
+
+
+then Save the IPtables Rule:
+
+for our vm for example 
+sudo iptables-save > /etc/iptables/rules.v4
+
+
+at usual :
+sudo service iptables save
+
+
+
+
+i hope it works!
