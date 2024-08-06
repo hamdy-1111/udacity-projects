@@ -1,5 +1,10 @@
-Suspicious file: wipefs
-Embedded callout URLs:
-Binary file /home/ubuntu/Downloads/wipefs matches
-Binary file /home/ubuntu/Downloads/ft32 matches
-Binary file /home/ubuntu/Downloads/ft64 matches
+Suspicious File Report
+
+- Suspicious Files:
+  - /home/ubuntu/Downloads/ft32
+  - /home/ubuntu/Downloads/ft64
+  - /home/ubuntu/Downloads/wipefs
+
+- Suspicious Domains:
+  - nicehash.com
+
