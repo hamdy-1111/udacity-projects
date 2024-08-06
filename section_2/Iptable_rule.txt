@@ -1,7 +1,7 @@
-block all traffic comming from the attacker 
+block ssh connection coming from the attacker 
 
 
-sudo iptables -A INPUT -s 192.168.99.1 -j DROP
+sudo iptables -A INPUT -p tcp --dport 22 -s 192.168.99.1 -j DROP
 
 
 then Save the IPtables Rule:
