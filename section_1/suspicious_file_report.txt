@@ -4,7 +4,14 @@ Suspicious File Report
   - /home/ubuntu/Downloads/ft32
   - /home/ubuntu/Downloads/ft64
   - /home/ubuntu/Downloads/wipefs
+/home/ubuntu/Downloads/SSH-One:hfs_m=http://darkl0rd.com:7758/SSH-T
+/home/ubuntu/Downloads/SSH-One:hfs_s=http://darkl0rd.com:7758/SSH-One
 
 - Suspicious Domains:
-  - nicehash.com
+http://darkl0rd.com:7758/SSH-T
+http://darkl0rd.com:7758/SSH-One
+
+//im so sorry now i know my fault , as i actually put these Suspicious Domains in a file called **url_search_results.txt**  
+//n then i when i continued the project again i forgot about em 
+
 
