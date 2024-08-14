@@ -7,11 +7,9 @@ rule UnknownThreat
         version = "1.1"
 
     strings:
-        // Unique string from ft32
         $malware_string1 = "token.pH"
         
-        // Unique domain from wipefs
-        $miner_string = "nicehash.com"
+        $malware_string2 = "darkl0rd.com"
 
     condition:
         // Detect any of the unique strings
